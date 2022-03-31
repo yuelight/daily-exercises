@@ -7,3 +7,7 @@
 - 2022-03-29
   - [821. 字符的最短距离](https://github.com/yuelight/daily-exercises/blob/main/2022-03-29/leetcode.js)
   - [symbol](https://github.com/yuelight/daily-exercises/blob/main/2022-03-29/script.js)
+
+- 2022-03-30
+  - [1381. 设计一个支持增量操作的栈](https://github.com/yuelight/daily-exercises/blob/main/2022-03-30/leetcode.js)
+  - [allSettled](https://github.com/yuelight/daily-exercises/blob/main/2022-03-30/script.js)
