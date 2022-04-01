@@ -15,3 +15,7 @@
 - 2022-03-31
   - [394. 字符串解码](https://github.com/yuelight/daily-exercises/blob/main/2022-03-31/leetcode.js)
   - [Object.is](https://github.com/yuelight/daily-exercises/blob/main/2022-03-31/script.js)
+
+- 2022-04-1
+  - [232. 用栈实现队列](https://github.com/yuelight/daily-exercises/blob/main/2022-04-1/leetcode.js)
+  - [时钟夹角角度](https://github.com/yuelight/daily-exercises/blob/main/2022-04-1/script.js)
