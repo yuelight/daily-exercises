@@ -31,9 +31,9 @@ var decodeString = function (s) {
 				.split(',')
 				.filter(Boolean);
 
-			ans[i] = new Array(+times).fill(chs.join(''));
+			ans[i] = new Array(+times).fill(chs.join('')).join('');
 		}
 	}
 
-	return ans.join('').replace(/,/g, '');
+	return ans.join('');
 };
