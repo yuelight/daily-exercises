@@ -11,3 +11,7 @@
 - 2022-03-30
   - [1381. 设计一个支持增量操作的栈](https://github.com/yuelight/daily-exercises/blob/main/2022-03-30/leetcode.js)
   - [allSettled](https://github.com/yuelight/daily-exercises/blob/main/2022-03-30/script.js)
+
+- 2022-03-31
+  - [394. 字符串解码](https://github.com/yuelight/daily-exercises/blob/main/2022-03-31/leetcode.js)
+  - [Object.is](https://github.com/yuelight/daily-exercises/blob/main/2022-03-31/script.js)
