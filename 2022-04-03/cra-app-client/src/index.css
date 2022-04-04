@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.app {
+	margin: 40px;
+}
+
+p + p {
+	margin-top: 16px;
+}
+
+.section {
+	margin-top: 20px;
+}
+
+li {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px;
+	width: 180px;
+	height: 20px;
+}
+
+.icon-del {
+	padding: 0 5px;
+	cursor: pointer;
+}

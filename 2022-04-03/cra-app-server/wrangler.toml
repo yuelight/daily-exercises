@@ -1,0 +1,16 @@
+name = "cra-app-server"
+type = "javascript"
+zone_id = ""
+account_id = ""
+route = ""
+workers_dev = true
+compatibility_date = "2022-04-03"
+kv_namespaces = [
+  { binding = "REFRESH_TIME", preview_id = "ecd86fec7c894f6996ea3fa50e51f72c", id = "ecd86fec7c894f6996ea3fa50e51f72c" },
+  { binding = "TODOS", preview_id = "f73584d827344986a000750d8fd66276", id = "f73584d827344986a000750d8fd66276" },
+]
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
