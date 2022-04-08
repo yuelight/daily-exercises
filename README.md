@@ -23,3 +23,6 @@
 - 2022-04-06
   - [768. 最多能完成排序的块 II](https://github.com/yuelight/daily-exercises/blob/main/2022-04-06/leetcode.js)
   - [URLSearchParams](https://github.com/yuelight/daily-exercises/blob/main/2022-04-06/script.js)
+
+- 2022-04-07
+  - [61. 旋转链表](https://github.com/yuelight/daily-exercises/blob/main/2022-04-07/leetcode.js)
