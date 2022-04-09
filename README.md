@@ -26,3 +26,7 @@
 
 - 2022-04-07
   - [61. 旋转链表](https://github.com/yuelight/daily-exercises/blob/main/2022-04-07/leetcode.js)
+
+- 2022-04-08
+  - [24. 两两交换链表中的节点](https://github.com/yuelight/daily-exercises/blob/main/2022-04-08/leetcode.js)
+  - [Object.create](https://github.com/yuelight/daily-exercises/blob/main/2022-04-08/script.js)
