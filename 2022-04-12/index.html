@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			#box {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 400px;
+				height: 300px;
+				background-color: #f60;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box"></div>
+
+		<script type="module">
+			import { fromEvent } from 'https://esm.sh/rxjs';
+			import { delay, takeUntil, switchMap, take, map } from 'https://esm.sh/rxjs/operators';
+
+			const $el = document.querySelector('#box');
+
+			if (!$el) {
+				throw new Error('元素不存在');
+			}
+
+			const mousedown$ = fromEvent($el, 'mousedown');
+			const mouseup$ = fromEvent(document, 'mouseup');
+			const mousemove$ = fromEvent(document, 'mousemove');
+
+			const drag$ = mousedown$.pipe(
+				switchMap((ev) =>
+					mousemove$.pipe(
+						map((moveEv) => ({
+							offsetX: moveEv.x - ev.offsetX,
+							offsetY: moveEv.y - ev.offsetY,
+						})),
+						delay(100),
+						takeUntil(mouseup$),
+					),
+				),
+			);
+
+			const drop$ = drag$.pipe(switchMap(() => mouseup$.pipe(take(1))));
+
+			drag$.subscribe(({ offsetX, offsetY } = {}) => {
+				console.log('drag', { offsetX, offsetY });
+				Object.assign($el.style, {
+					left: `${offsetX}px`,
+					top: `${offsetY}px`,
+				});
+			});
+
+			drop$.subscribe((ev) => {
+				console.log('drop', ev);
+			});
+		</script>
+	</body>
+</html>
