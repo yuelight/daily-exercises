@@ -38,3 +38,8 @@
 - 2022-04-12
   - [160. 相交链表](https://github.com/yuelight/daily-exercises/blob/main/2022-04-12/leetcode.js)
   - [拖拽元素](https://github.com/yuelight/daily-exercises/blob/main/2022-04-12/index.html)
+
+- 2022-04-13
+  - [142. 环形链表 II](https://github.com/yuelight/daily-exercises/blob/main/2022-04-13/leetcode.js)
+  - [Promise.any](https://github.com/yuelight/daily-exercises/blob/main/2022-04-13/script.js)
+
