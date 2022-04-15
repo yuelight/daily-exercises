@@ -43,3 +43,6 @@
   - [142. 环形链表 II](https://github.com/yuelight/daily-exercises/blob/main/2022-04-13/leetcode.js)
   - [Promise.any](https://github.com/yuelight/daily-exercises/blob/main/2022-04-13/script.js)
 
+- 2022-04-14
+  - [146. LRU 缓存](https://github.com/yuelight/daily-exercises/blob/main/2022-04-14/leetcode.ts)
+  - [Promise.race](https://github.com/yuelight/daily-exercises/blob/main/2022-04-14/script.js)
