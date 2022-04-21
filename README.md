@@ -54,3 +54,7 @@
 - 2022-04-16
   - [100. 相同的树](https://github.com/yuelight/daily-exercises/blob/main/2022-04-16/leetcode.ts)
   - [virtual-dom-v-jsx-2](https://github.com/yuelight/daily-exercises/blob/main/2022-04-16/script.js)
+
+- 2022-04-17
+  - [129. 求根节点到叶节点数字之和](https://github.com/yuelight/daily-exercises/blob/main/2022-04-17/leetcode.ts)
+  - [去除字符](https://github.com/yuelight/daily-exercises/blob/main/2022-04-17/script.js)
