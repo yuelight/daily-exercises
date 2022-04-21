@@ -58,3 +58,7 @@
 - 2022-04-17
   - [129. 求根节点到叶节点数字之和](https://github.com/yuelight/daily-exercises/blob/main/2022-04-17/leetcode.ts)
   - [去除字符](https://github.com/yuelight/daily-exercises/blob/main/2022-04-17/script.js)
+
+- 2022-04-18
+  - [513. 找树左下角的值](https://github.com/yuelight/daily-exercises/blob/main/2022-04-18/leetcode.ts)
+  - [LazyMan](https://github.com/yuelight/daily-exercises/blob/main/2022-04-18/script.js)
