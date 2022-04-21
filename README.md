@@ -46,3 +46,11 @@
 - 2022-04-14
   - [146. LRU 缓存](https://github.com/yuelight/daily-exercises/blob/main/2022-04-14/leetcode.ts)
   - [Promise.race](https://github.com/yuelight/daily-exercises/blob/main/2022-04-14/script.js)
+
+- 2022-04-15
+  - [104. 二叉树的最大深度](https://github.com/yuelight/daily-exercises/blob/main/2022-04-15/leetcode.ts)
+  - [immer](https://github.com/yuelight/daily-exercises/blob/main/2022-04-15/script.js)
+
+- 2022-04-16
+  - [100. 相同的树](https://github.com/yuelight/daily-exercises/blob/main/2022-04-16/leetcode.ts)
+  - [virtual-dom-v-jsx-2](https://github.com/yuelight/daily-exercises/blob/main/2022-04-16/script.js)
