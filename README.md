@@ -51,14 +51,31 @@
   - [104. 二叉树的最大深度](https://github.com/yuelight/daily-exercises/blob/main/2022-04-15/leetcode.ts)
   - [immer](https://github.com/yuelight/daily-exercises/blob/main/2022-04-15/script.js)
 
-- 2022-04-16
-  - [100. 相同的树](https://github.com/yuelight/daily-exercises/blob/main/2022-04-16/leetcode.ts)
-  - [virtual-dom-v-jsx-2](https://github.com/yuelight/daily-exercises/blob/main/2022-04-16/script.js)
-
-- 2022-04-17
-  - [129. 求根节点到叶节点数字之和](https://github.com/yuelight/daily-exercises/blob/main/2022-04-17/leetcode.ts)
-  - [去除字符](https://github.com/yuelight/daily-exercises/blob/main/2022-04-17/script.js)
-
 - 2022-04-18
-  - [513. 找树左下角的值](https://github.com/yuelight/daily-exercises/blob/main/2022-04-18/leetcode.ts)
-  - [LazyMan](https://github.com/yuelight/daily-exercises/blob/main/2022-04-18/script.js)
+  - [100. 相同的树](https://github.com/yuelight/daily-exercises/blob/main/2022-04-18/leetcode.ts)
+  - [virtual-dom-v-jsx-2](https://github.com/yuelight/daily-exercises/blob/main/2022-04-18/script.js)
+
+- 2022-04-19
+  - [129. 求根节点到叶节点数字之和](https://github.com/yuelight/daily-exercises/blob/main/2022-04-19/leetcode.ts)
+  - [去除字符](https://github.com/yuelight/daily-exercises/blob/main/2022-04-19/script.js)
+
+- 2022-04-20
+  - [513. 找树左下角的值](https://github.com/yuelight/daily-exercises/blob/main/2022-04-20/leetcode.ts)
+  - [LazyMan](https://github.com/yuelight/daily-exercises/blob/main/2022-04-20/script.js)
+
+- 2022-04-21
+  - [297. 二叉树的序列化与反序列化](https://github.com/yuelight/daily-exercises/blob/main/2022-04-21/leetcode.ts)
+  - [渲染百万条结构简单的大数据时 怎么使用分片思想优化渲染](https://github.com/yuelight/daily-exercises/blob/main/2022-04-21/script.js)
+
+- 2022-04-22
+  - [987. 二叉树的垂序遍历](https://github.com/yuelight/daily-exercises/blob/main/2022-04-22/leetcode.ts)
+  - [DOM2JSON](https://github.com/yuelight/daily-exercises/blob/main/2022-04-22/script.js)
+
+- 2022-04-24
+  - [1. 两数之和](https://github.com/yuelight/daily-exercises/blob/main/2022-04-24/leetcode.ts)
+  - [compose](https://github.com/yuelight/daily-exercises/blob/main/2022-04-24/script.js)
+
+- 2022-04-25
+  - [347. 前 K 个高频元素](https://github.com/yuelight/daily-exercises/blob/main/2022-04-25/leetcode.ts)
+  - [断点续传](https://github.com/yuelight/daily-exercises/blob/main/2022-04-25/script.js)
+

@@ -1,5 +1,5 @@
-// link https://leetcode-cn.com/problems/find-bottom-left-tree-value/
-// 513. 找树左下角的值
+// link https://leetcode-cn.com/problems/same-tree/
+// 100. 相同的树
 
 /**
  * Definition for a binary tree node.
@@ -10,29 +10,22 @@
  * }
  */
 /**
- * @param {TreeNode} root
- * @return {number}
+ * @param {TreeNode} p
+ * @param {TreeNode} q
+ * @return {boolean}
  */
-var findBottomLeftValue = function (root) {
-	let ans;
-	let depth = 0;
+var isSameTree = function (p, q) {
+	if (p == null && q == null) {
+		return true;
+	}
 
-	const dfs = (node, _depth = 0) => {
-		if (!node) {
-			return;
-		}
+	if (!p || !q) {
+		return false;
+	}
 
-		const nextDepth = _depth + 1;
-		if (nextDepth > depth) {
-			depth = nextDepth;
-			ans = node.left ? node.left.val : node.val;
-		}
+	if (q.val !== p.val) {
+		return false;
+	}
 
-		dfs(node.left, nextDepth);
-		dfs(node.right, nextDepth);
-	};
-
-	dfs(root);
-
-	return ans;
+	return isSameTree(q.left, p.left) && isSameTree(q.right, p.right);
 };
