@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input type="file" id="file">
+
+  <hr />
+
+  <button id="upload">upload</button>
+
+  <script type="module">
+    // TODO 先写一点点 学习一下example: https://juejin.cn/post/7055474765611401253
+    import { of, empty, fromEvent } from 'https://esm.sh/rxjs';
+    import { switchMap } from 'https://esm.sh/rxjs/operators';
+
+    const url = 'http://localhost:3000/upload';
+    const $upload = document.querySelector('#upload');
+    const $file = document.querySelector('#file');
+
+    const source$ = fromEvent($upload, 'click')
+      .pipe(
+        switchMap(() => {
+          const _file = $file && $file.files[0];
+
+          return _file ? of(_file) : empty();
+        })
+      );
+    
+    source$.subscribe((file) => {
+      const formData = new FormData();
+      formData.append('chunk', file);
+      formData.append('filename', file.name);
+      fetch(url, {
+        method: 'PUT',
+        body: formData,
+        headers: {
+          'Content-Type': 'multipart/form-data'
+        }
+      })
+        .then((res) => res.json())
+        .then(console.log)
+        .catch(console.error);
+    });
+  </script>
+</body>
+</html>

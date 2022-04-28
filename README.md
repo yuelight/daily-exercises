@@ -79,3 +79,12 @@
   - [347. 前 K 个高频元素](https://github.com/yuelight/daily-exercises/blob/main/2022-04-25/leetcode.ts)
   - [断点续传](https://github.com/yuelight/daily-exercises/blob/main/2022-04-25/script.js)
 
+- 2022-04-26
+  - [347. 前 K 个高频元素](https://github.com/yuelight/daily-exercises/blob/main/2022-04-26/leetcode.ts)
+  - [Trim](https://github.com/yuelight/daily-exercises/blob/main/2022-04-26/script.ts)
+
+- 2022-04-27
+  - [3. 无重复字符的最长子串](https://github.com/yuelight/daily-exercises/blob/main/2022-04-27/leetcode.ts)
+
+- 2022-04-28
+  - [30. 串联所有单词的子串](https://github.com/yuelight/daily-exercises/blob/main/2022-04-28/leetcode.ts)
