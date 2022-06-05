@@ -88,3 +88,7 @@
 
 - 2022-04-28
   - [30. 串联所有单词的子串](https://github.com/yuelight/daily-exercises/blob/main/2022-04-28/leetcode.ts)
+
+- 2022-04-29
+  - [Partial](https://github.com/yuelight/daily-exercises/blob/main/2022-04-29/script.ts)
+
